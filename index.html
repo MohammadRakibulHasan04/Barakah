@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barakah Mango Delivery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="logo.png" alt="Barakah Logo">
+    </div>
+    <button class="mobile-menu-btn" aria-label="Menu">
+      <span class="menu-icon">☰</span>
+    </button>
+    <ul class="navbar-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#mangoes">Mangoes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <header class="parallax" id="home">
+    <h1>Fresh Mangoes Delivered to Your Doorstep</h1>
+    <p class="tagline">Experience the taste of Barakah!</p>
+    <div class="header-order" style="margin-top:2.5rem;">
+      <a href="#" class="order-button" id="headerOrderBtn">Place Order Now</a>
+    </div>
+  </header>
+  <section class="features" id="features">
+    <h2>Why Choose Us?</h2>
+    <div class="feature-list">
+      <div class="feature">
+        <h3>Farm Fresh</h3>
+        <p>Handpicked mangoes straight from the orchard.</p>
+      </div>
+      <div class="feature">
+        <h3>Fast Delivery</h3>
+        <p>Get your mangoes delivered within 24 hours.</p>
+      </div>
+      <div class="feature">
+        <h3>Premium Quality</h3>
+        <p>Only the juiciest and ripest mangoes make the cut.</p>
+      </div>
+    </div>
+  </section>
+  <section class="about parallax" id="about">
+    <div class="about-content">
+      <h2>About Barakah</h2>
+      <p>Barakah is dedicated to bringing you the finest mangoes, grown with care and delivered with love. Our mission is to make every bite a delightful experience.</p>
+    </div>
+  </section>
+  <section class="mango-description" id="mangoes">
+    <h2>Our Mangoes</h2>
+    <div class="mango-details">
+      <div class="mango-varieties">
+        <h3>Varieties We Offer</h3>
+        <ul>
+          <li>Alphonso (Hapus)</li>
+          <li>Kesar</li>
+          <li>Langra</li>
+          <li>Dasheri</li>
+          <li>Badami</li>
+        </ul>
+      </div>
+      <div class="mango-taste">
+        <h3>Unmatched Taste</h3>
+        <p>Our mangoes are known for their rich aroma, juicy pulp, and perfect sweetness. Each variety offers a unique flavor profile, making every bite a tropical delight.</p>
+      </div>
+      <div class="mango-health">
+        <h3>Health Benefits</h3>
+        <ul>
+          <li>Rich in vitamins A, C, and E</li>
+          <li>Boosts immunity and digestion</li>
+          <li>High in antioxidants</li>
+          <li>Great for skin and eye health</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="mango-varieties-tiles" id="varieties">
+    <h2>Mango Varieties</h2>
+    <div class="tile-grid">
+      <div class="mango-tile">
+        <div class="mango-img alphonso"></div>
+        <h3>Alphonso (Hapus)</h3>
+        <p>The king of mangoes, known for its rich flavor, smooth texture, and vibrant saffron color.</p>
+      </div>
+      <div class="mango-tile">
+        <div class="mango-img kesar"></div>
+        <h3>Kesar</h3>
+        <p>Famous for its bright orange pulp and sweet, aromatic taste. A favorite for juices and sweets.</p>
+      </div>
+      <div class="mango-tile">
+        <div class="mango-img langra"></div>
+        <h3>Langra</h3>
+        <p>Juicy and tangy, with a unique flavor profile. Green even when ripe and loved for its distinct taste.</p>
+      </div>
+      <div class="mango-tile">
+        <div class="mango-img dasheri"></div>
+        <h3>Dasheri</h3>
+        <p>Sweet, aromatic, and has a long, slender shape. Popular for its smooth, fiberless flesh.</p>
+      </div>
+      <div class="mango-tile">
+        <div class="mango-img badami"></div>
+        <h3>Badami</h3>
+        <p>Often called the Alphonso of Karnataka. Juicy, sweet, and has a delightful aroma.</p>
+      </div>
+    </div>
+  </section>
+  <section class="video-hero">
+    <div class="video-container">
+      <video autoplay muted loop playsinline>
+        <source src="harvesting.mp4" type="video/mp4">
+      </video>
+      <div class="video-overlay">
+        <h2 class="animate-text">From Our Garden to Your Table</h2>
+        <p class="animate-text delay-1">Experience the journey of our premium mangoes</p>
+        <div class="cta-button animate-text delay-2">
+          <a href="#mangoes">Explore Our Mangoes</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery" id="gallery">
+    <h2>Our Mango Journey</h2>
+    <div class="gallery-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="garden">Garden</button>
+      <button class="filter-btn" data-filter="packaging">Packaging</button>
+    </div>
+    <div class="gallery-grid">
+      <!-- Garden Images -->
+      <div class="gallery-item" data-category="garden">
+        <div class="gallery-img-container">
+          <img src="mango 2.jpg" alt="Mangoes on Tree" loading="lazy">
+        </div>
+        <div class="gallery-overlay">
+          <h3>Mangoes on Tree</h3>
+          <p>Fresh from the garden</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="garden">
+        <div class="gallery-img-container">
+          <img src="mango 3.jpg" alt="Mangoes Cluster" loading="lazy">
+        </div>
+        <div class="gallery-overlay">
+          <h3>Mango Cluster</h3>
+          <p>Healthy growth in our orchard</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="garden">
+        <div class="gallery-img-container">
+          <img src="ripe mango.jpg" alt="Ripe Mango" loading="lazy">
+        </div>
+        <div class="gallery-overlay">
+          <h3>Ripe Mango</h3>
+          <p>Ready for harvest</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="garden">
+        <div class="gallery-img-container">
+          <img src="raw 5.jpg" alt="Raw Mangoes" loading="lazy">
+        </div>
+        <div class="gallery-overlay">
+          <h3>Raw Mangoes</h3>
+          <p>Early stage in the garden</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="garden">
+        <div class="gallery-img-container">
+          <img src="raw 6.jpg" alt="Raw Mangoes Closeup" loading="lazy">
+        </div>
+        <div class="gallery-overlay">
+          <h3>Raw Mangoes Closeup</h3>
+          <p>Nature's bounty</p>
+        </div>
+      </div>
+      <!-- Packaging Images -->
+      <div class="gallery-item" data-category="packaging">
+        <div class="gallery-img-container">
+          <img src="packeging.jpg" alt="Mango Packaging" loading="lazy">
+        </div>
+        <div class="gallery-overlay">
+          <h3>Premium Packaging</h3>
+          <p>Carefully packed for freshness</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact" style="background: #fff; margin: 0; padding: 0;">
+    <div class="order-button-container">
+      <h2>Place Your Order</h2>
+      <a href="#" class="order-button" id="placeOrderBtn">Place Order Now</a>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-banner">
+      <img src="mango-banner.jpg" alt="Mango Varieties Banner" class="footer-banner-image">
+    </div>
+  </footer>
+  <script>
+    // Mobile menu toggle
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navbarLinks = document.querySelector('.navbar-links');
+    
+    mobileMenuBtn.addEventListener('click', () => {
+      navbarLinks.classList.toggle('active');
+      const isOpen = navbarLinks.classList.contains('active');
+      mobileMenuBtn.setAttribute('aria-expanded', isOpen);
+      mobileMenuBtn.querySelector('.menu-icon').textContent = isOpen ? '✕' : '☰';
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!navbarLinks.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+        navbarLinks.classList.remove('active');
+        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+        mobileMenuBtn.querySelector('.menu-icon').textContent = '☰';
+      }
+    });
+
+    // Animated counter for kg sold
+    function animateCounter(id, end, duration) {
+      const el = document.getElementById(id);
+      let start = 0;
+      const range = end - start;
+      const increment = Math.ceil(range / 20); // Count in larger increments
+      const stepTime = Math.abs(Math.floor(duration / 20)); // Fixed number of steps
+      let current = start;
+      
+      // Add initial animation class
+      el.classList.add('counting');
+      
+      const timer = setInterval(function() {
+        current = Math.min(current + increment, end);
+        el.textContent = current.toLocaleString();
+        if (current >= end) {
+          clearInterval(timer);
+          el.textContent = end.toLocaleString() + '+';
+          // Remove animation class when done
+          el.classList.remove('counting');
+        }
+      }, stepTime);
+    }
+    
+    // Animate to 200 kg+ over 1 second
+    animateCounter('kgCounter', 200, 1000);
+
+    // Gallery Filtering
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        button.classList.add('active');
+
+        const filter = button.getAttribute('data-filter');
+
+        galleryItems.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.style.display = 'block';
+            setTimeout(() => {
+              item.style.opacity = '1';
+              item.style.transform = 'scale(1)';
+            }, 50);
+          } else {
+            item.style.opacity = '0';
+            item.style.transform = 'scale(0.8)';
+            setTimeout(() => {
+              item.style.display = 'none';
+            }, 300);
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html> 
